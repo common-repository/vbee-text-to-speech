@@ -1,0 +1,112 @@
+.vbee-plugin audio {
+    height: 36px;
+    width: 100%;
+    border-radius: 0!important;
+    -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+    display: block;
+    margin-bottom: 0!important;
+}
+.vbee-plugin select {
+    border: 0;
+    border-radius: 50px;
+    background-color: #f1f3f4;
+    margin-left: 10px;
+    height: 36px;
+    font-size: 10.5px;
+}
+.vbee-plugin{
+    margin-bottom: 15px;
+    width: 100%;
+	text-align: center;
+    display: flex;
+}
+.vbee-plugin.blur {
+    position: relative;
+}
+
+span.bg-add {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0000;
+    z-index: 999;
+    cursor: pointer;
+}
+.vbee-plugin.blur.run span.bg-add {
+    background: #fff;
+    border-radius: 30px;
+    color: #fff;
+    line-height: 31px;
+}
+
+.vbee-load {position: fixed;left: 0;top: 0;width: 100%;height: 100%;text-align: center;align-items: center;display: none;justify-content: center;background: #ffffff61;z-index: 9999;}
+.vbee-load img {width: 100px;}
+
+.action-vbee-audio{
+    a.test-audio {
+        display: inline-block;
+        background: #0078d8;
+        color: #fff;
+        padding: 4px 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        padding-top: 2px;
+    }
+
+    a.del-audio {
+        display: inline-block;
+        background: #f44336;
+        color: #fff;
+        padding: 4px 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        padding-top: 2px;
+    }
+
+    a.none-audio {
+        display: inline-block;
+        background: #9e9e9e;
+        color: #fff;
+        padding: 4px 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        padding-top: 2px;
+    }
+
+    a.inprocess-audio {
+        display: inline-block;
+        background: #4caf50;
+        color: #fff;
+        padding: 4px 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        padding-top: 2px;
+    }
+}
+.d-action a {
+    display: inline-block;
+    padding: 6px 15px;
+    margin: 0 5px;
+    background: #696969;
+    border-radius: 3px;
+    color: #fff;
+    width: 75px;
+    cursor: pointer;
+}
+
+.d-action {
+    text-align: center;
+}
+
+.d-action a.confirm_delete {
+    background: #2196f3;
+}
+div.action-vbee-audio {
+    text-align: center;
+}
+
+div.action-vbee-audio a {
+    margin: 2px 4px;
+}
